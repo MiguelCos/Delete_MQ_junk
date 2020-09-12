@@ -15,7 +15,7 @@ library(stringr)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-## Delete everything but the txt folder from the 'combinen' MQ output ----
+## Delete everything but the txt folder from the 'combined' MQ output ----
 
 files_comb <- list.files(paste0(getwd(),"/combined"))
 
